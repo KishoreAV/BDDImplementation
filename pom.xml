@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.learn.automation</groupId>
-    <artifactId>selT</artifactId>
-    <version>1.0</version>
+    <artifactId>bdd-implementation</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <dependencies>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>2.3.1</version>
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -64,10 +69,10 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <description>Selenium with TestNg</description>
-    <name>SeleniumAutomation</name>
+    <description>Cucumber with TestNg</description>
+    <name>BDDImplementation</name>
     <scm>
-    	<url>https://github.com/KishoreAV/SeleniumAutomationTest</url>
+    	<url>https://github.com/KishoreAV/BDDImplementation</url>
     </scm>
-    <url>https://github.com/KishoreAV/SeleniumAutomationTest</url>
+    <url>https://github.com/KishoreAV/BDDImplementation</url>
 </project>
